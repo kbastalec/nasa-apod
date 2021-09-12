@@ -5,7 +5,7 @@ const saveConfirmed = document.querySelector(".save-confirmed");
 const loader = document.querySelector(".loader");
 
 // NASA API
-const count = 10;
+const count = 5;
 const apiKey = "DEMO_KEY";
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=${count}`;
 
@@ -92,7 +92,7 @@ function updateDOM(page) {
   showContent(page);
 }
 
-// Get 10 images from NASA api
+// Get 5 images from NASA api
 async function getNasaPictures() {
   // Show Loader
   loader.classList.remove("hidden");
