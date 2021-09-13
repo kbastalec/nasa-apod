@@ -129,6 +129,7 @@ function removeFavorite(itemUrl) {
     delete favorites[itemUrl];
     // Set favorites in localstorage
     localStorage.setItem("nasaFavorites", JSON.stringify(favorites));
+    console.log("HI!");
   }
 }
 
